@@ -1,0 +1,22 @@
+Policy ID: P05
+Category: Technical Support Expertise Issues
+Churn Reason (exact dataset values): Poor expertise of online support, Poor expertise of phone support
+Frequency: 43 cases (2.3% of all churned customers)
+Priority Level: MEDIUM
+Related Policy: P02 (Support/Service Attitude Issues) - the KEY DIFFERENCE is that P05 is about whether the issue was actually resolved (competence gap), while P02 is about how the customer was treated (behavioral/manner gap). Use P05 when the complaint centers on the problem staying unresolved; use P02 when it centers on rudeness or poor manner.
+
+Use When (customer profile hints):
+- Recent unresolved technical support ticket/interaction logged (if available)
+- Internet Service = Yes (technical issue likely connectivity/equipment related)
+- Customer contacted support more than once for the same underlying issue (if such data is tracked)
+
+Problem Summary: These customers had a technical problem that support staff (either online chat/self-service or phone support) were unable to resolve competently. Unlike the "attitude" group, the issue here isn't rudeness - it's a lack of technical knowledge or problem-solving ability, leaving the customer's actual issue unresolved and their confidence in the company's competence shaken.
+
+Recommended Retention Actions:
+1. Escalate this customer's unresolved technical issue immediately to a Tier 2/senior technical specialist to ensure the original problem is actually fixed.
+2. Follow up personally once the issue is resolved to confirm satisfaction and rebuild confidence in the company's technical capability.
+3. Offer a service credit or discount acknowledging the extended time/frustration caused by the unresolved issue (e.g., illustrative: credit proportional to time unresolved).
+4. Flag this as a training/knowledge-base gap for the support team - review whether the specific issue type is well-documented in internal support resources.
+5. For online self-service failures specifically, review and improve the relevant help-center article or chatbot flow that failed to resolve the customer's issue.
+
+Note: Specific discount amounts in these actions are illustrative examples only, not figures derived from company data.

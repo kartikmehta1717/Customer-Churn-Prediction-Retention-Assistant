@@ -1,0 +1,20 @@
+Policy ID: P01A
+Category: Competitor-Related Churn
+Churn Reason (exact dataset value): Competitor had better devices
+Frequency: 313 cases (16.7% of all churned customers)
+Priority Level: HIGH
+Related Policy: P01B (Competitor made better offer) - overlaps when customer mentions both device and general offer; P01C, P01D also part of the same Competitor-Related group
+
+Use When (customer profile hints):
+- Contract = Month-to-Month (most common among this group)
+- Customer recently asked about handset/device upgrade eligibility
+- Tenure is mid-to-long (customer has been eligible for upgrade for a while)
+
+Problem Summary: The customer left specifically because a rival provider offered better hardware/devices (e.g., a newer phone model, better bundled equipment) than what this company offers or subsidizes. This is a hardware/device-value issue, distinct from pricing or data allowance issues.
+
+Recommended Retention Actions:
+1. Offer a device upgrade or trade-in promotion (e.g., illustrative: discounted upgrade to a current-generation device) for customers nearing contract renewal.
+2. Check whether the customer is eligible for an early upgrade and proactively inform them before they compare competitor offers.
+3. If matching the competitor's exact device deal isn't feasible, offer an equivalent-value alternative (e.g., illustrative: bill credit toward a device purchase).
+
+Note: Specific discount percentages and timeframes in these actions are illustrative examples only, not figures derived from company data, and should be set by the retention/marketing team based on actual cost margins.

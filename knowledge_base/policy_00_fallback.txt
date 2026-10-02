@@ -1,0 +1,18 @@
+Policy ID: P00_FALLBACK
+Category: Non-Actionable / No Retention Policy Applicable
+Churn Reason (exact dataset values): Don't know, Moved, Deceased
+Frequency: 182 cases (9.7% of all churned customers) - Don't know: 130, Moved: 46, Deceased: 6
+Priority Level: NOT APPLICABLE - no retention action should be recommended for this group
+
+Use When (customer profile hints):
+- No clear pattern in Contract, Charges, or Service features distinguishes this group - these reasons are independent of product/service experience
+- This policy should be retrieved when a churn reason or customer situation does not clearly match any other policy's "Use When" conditions or Churn Reason field
+
+Problem Summary: These churn reasons do not reflect a problem the company can address through a retention offer or service change. "Moved" means the customer relocated, often outside the company's service area - no discount or feature change resolves this. "Deceased" means the account holder passed away - retention action is inappropriate and insensitive. "Don't know" means no specific reason was captured or the customer did not articulate one - attempting to force a specific retention action based on an unknown cause risks addressing the wrong problem entirely.
+
+Recommended Retention Actions:
+1. For "Moved": Check if service is available at the customer's new address before assuming the account cannot be retained; if available, offer a simple, low-friction account transfer process instead of a discount-based offer.
+2. For "Deceased": No retention action. Route the account to the appropriate account-closure/bereavement support process instead.
+3. For "Don't know": Do not generate a specific monetary or feature-based retention offer from this reason alone. Instead, recommend a general, low-pressure check-in call to understand the actual reason before deciding on any action, or use other available signals (e.g., SHAP-identified risk factors from the prediction model) to infer a more likely underlying cause.
+
+IMPORTANT FOR SYSTEM USE: When this policy is the best (or only) match retrieved for a customer, the response generated should explicitly state that no specific, evidence-based retention policy applies, rather than inventing a plausible-sounding but ungrounded recommendation. This prevents the system from hallucinating a confident-sounding but baseless retention action.

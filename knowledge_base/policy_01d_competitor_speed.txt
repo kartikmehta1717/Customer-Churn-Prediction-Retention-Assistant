@@ -1,0 +1,20 @@
+Policy ID: P01D
+Category: Competitor-Related Churn
+Churn Reason (exact dataset value): Competitor offered higher download speeds
+Frequency: 100 cases (5.4% of all churned customers)
+Priority Level: MEDIUM-HIGH
+Related Policy: P01A, P01B, P01C (other Competitor-Related sub-reasons); P06 (Speed/Bandwidth Concerns) - the KEY DIFFERENCE is that this policy applies when the customer explicitly compared speeds to a NAMED competitor's offering, while P06 applies when the customer simply found the company's own speed tiers unaffordable, with no competitor comparison mentioned.
+
+Use When (customer profile hints):
+- Internet Type = DSL (most likely to be out-competed on speed by Fiber-based competitors)
+- Internet Service = Yes
+- Customer has explicitly mentioned a competitor's speed/plan during a support interaction (if logged)
+
+Problem Summary: The customer left because a competitor offered explicitly faster internet download speeds than the company's current offering to them - typically a DSL customer being offered Fiber-equivalent speeds elsewhere. This is a direct competitive technology/infrastructure comparison, distinct from P06 where the customer simply found the company's own faster tiers too expensive.
+
+Recommended Retention Actions:
+1. If the customer is on DSL and Fiber Optic is available in their area, offer a free or discounted trial upgrade to Fiber Optic (e.g., illustrative: first 1-2 months discounted) to demonstrate the speed improvement before they commit to switching providers.
+2. If Fiber is not available in the customer's area, be transparent about infrastructure limitations and offer the best available speed tier at a retention discount.
+3. Proactively flag DSL customers in areas with known competitor Fiber rollout for early retention outreach.
+
+Note: Specific discount percentages and timeframes in these actions are illustrative examples only, not figures derived from company data.

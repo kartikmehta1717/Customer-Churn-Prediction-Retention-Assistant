@@ -1,0 +1,22 @@
+Policy ID: P04
+Category: Service Quality & Reliability
+Churn Reason (exact dataset values): Product dissatisfaction, Network reliability, Service dissatisfaction, Limited range of services
+Frequency: 249 cases (13.3% of all churned customers)
+Priority Level: HIGH
+Related Policy: P05 (Technical Support Expertise Issues) - overlaps when a network reliability issue was reported to support but not competently resolved; if the primary complaint is about support competence rather than the underlying network/product itself, prefer P05.
+
+Use When (customer profile hints):
+- Internet Type = Fiber Optic or DSL (network reliability sub-reason most relevant here)
+- Multiple services subscribed (Streaming, Security, Backup, etc.) but customer still churned (suggests unmet needs despite feature availability, for "Limited range of services")
+- No specific competitor named, no specific price complaint - this is about the product/service itself falling short of expectations
+
+Problem Summary: This group of customers experienced genuine dissatisfaction with the core product or service itself - whether unreliable network connectivity, a product that didn't meet expectations, general service dissatisfaction, or a feeling that the company's service offerings were too limited compared to what they needed. This is fundamentally a product/infrastructure quality issue rather than a pricing or attitude issue.
+
+Recommended Retention Actions:
+1. For network reliability complaints, prioritize a technical diagnostic visit or remote line check to identify and resolve the specific connectivity issue in their area before they leave.
+2. Offer a temporary service credit for the period during which service was unreliable (e.g., illustrative: prorated credit for downtime), as a tangible acknowledgment of the problem.
+3. For customers citing "limited range of services," proactively present bundled service upgrades (e.g., adding streaming, security, or backup services) that may address the gap they were feeling.
+4. Assign a dedicated account specialist to conduct a needs-assessment call, understanding specifically what the customer felt was missing or unreliable, and tailor a retention offer to that specific gap.
+5. Where network infrastructure limitations are confirmed (e.g., area with poor coverage), be transparent with the customer about planned infrastructure improvements and timeline, and offer an interim discount.
+
+Note: Specific discount amounts and timeframes in these actions are illustrative examples only, not figures derived from company data.

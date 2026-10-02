@@ -1,0 +1,20 @@
+Policy ID: P07
+Category: Digital Self-Service Gaps
+Churn Reason (exact dataset value): Lack of self-service on Website
+Frequency: 29 cases (1.6% of all churned customers)
+Priority Level: LOW-MEDIUM
+Related Policy: None directly overlapping - this is a distinct digital-experience issue rather than pricing, attitude, or network quality.
+
+Use When (customer profile hints):
+- Paperless Billing = Yes (digitally engaged customer, more likely to expect strong self-service)
+- No specific competitor, price, or attitude complaint present - the issue is specifically about website/account-management capability
+
+Problem Summary: These customers wanted to manage their account, resolve issues, or make changes independently through the company website but found the self-service capabilities lacking, forcing them to rely on phone/chat support for simple tasks. This creates friction and can feel outdated compared to competitors offering full digital self-service.
+
+Recommended Retention Actions:
+1. Offer a personal walkthrough (via call or screen-share) of existing self-service features the customer may not be aware of, in case the gap is a discoverability issue rather than a true feature gap.
+2. Log this feedback specifically for the product/digital team as a feature-request signal - repeated mentions of the same missing capability should prioritize website/app development roadmap items.
+3. In the interim, offer this customer a dedicated support contact for quick, low-friction resolution of routine requests (bypassing the general queue) as a goodwill measure.
+4. If a mobile app exists separately from the website, ensure the customer is aware of and onboarded onto it, in case it offers capabilities the website lacks.
+
+Note: This policy does not include monetary retention offers, as the underlying issue is a product/digital-experience gap rather than a pricing or service-quality concern.

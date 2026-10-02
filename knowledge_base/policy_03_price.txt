@@ -1,0 +1,23 @@
+Policy ID: P03
+Category: Price & Charges Concerns
+Churn Reason (exact dataset values): Price too high, Extra data charges, Long distance charges
+Frequency: 181 cases (9.7% of all churned customers)
+Priority Level: MEDIUM-HIGH
+Related Policy: P01B (Competitor made better offer) - overlaps when the customer's price complaint is framed as a comparison to a named competitor rather than a standalone affordability concern; if a competitor was explicitly named, prefer P01B.
+
+Use When (customer profile hints):
+- Monthly Charge is above average for the customer's plan tier
+- Total Extra Data Charges > 0 (for the "Extra data charges" sub-reason)
+- Avg Monthly Long Distance Charges is high (for the "Long distance charges" sub-reason)
+- No competitor was explicitly named in the complaint
+
+Problem Summary: These customers felt the overall cost of service - whether the base monthly price, unexpected extra data overage charges, or long-distance call charges - was too high relative to the value they were receiving. Unlike the competitor group, these customers may not have an alternative provider in mind; they simply felt the current pricing was unjustified or the billing was unpredictable, which erodes trust over time.
+
+Recommended Retention Actions:
+1. Offer a plan downgrade consultation - help the customer move to a lower-cost plan that still meets their actual usage needs, rather than losing them entirely.
+2. For customers hit by extra data charges, proactively offer an unlimited data add-on at a discounted introductory rate (e.g., illustrative: reduced rate for the first few months), or set up automatic usage alerts to prevent future surprise charges.
+3. For long-distance charge complaints, offer a long-distance bundle or flat-rate add-on plan that caps their monthly cost predictably.
+4. Introduce a loyalty-tenure discount for customers who have been with the company for a defined minimum tenure (e.g., illustrative: 12+ months), reducing the "why am I still paying full price" churn trigger.
+5. Provide clearer, itemized billing summaries (via app/email) so customers understand exactly what they're being charged for, reducing perceived unfairness.
+
+Note: Specific discount percentages, thresholds, and timeframes in these actions are illustrative examples only, not figures derived from company data.

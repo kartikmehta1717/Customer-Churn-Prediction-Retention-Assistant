@@ -1,0 +1,21 @@
+Policy ID: P06
+Category: Speed/Bandwidth Concerns
+Churn Reason (exact dataset value): Lack of affordable download/upload speed
+Frequency: 30 cases (1.6% of all churned customers)
+Priority Level: MEDIUM
+Related Policy: P01D (Competitor offered higher download speeds) - the KEY DIFFERENCE is that P06 applies when the customer found the company's OWN higher-speed plans too expensive, with NO competitor comparison mentioned. P01D applies when the customer explicitly compared speeds to a NAMED competitor's offering. If a competitor is mentioned, prefer P01D.
+
+Use When (customer profile hints):
+- Internet Type = DSL (wants faster speed but finds upgrade cost prohibitive)
+- Monthly Charge is at or below average (suggests customer is on a lower/cheaper tier and can't justify upgrading)
+- No competitor explicitly named in the complaint
+
+Problem Summary: These customers wanted faster internet speeds but felt the plans offering those speeds were not affordably priced for them. This is a middle-ground issue between pure price sensitivity and pure service quality - they aren't necessarily unhappy with current speeds being broken, but they feel priced out of the speed tier they actually want or need, independent of any competitor comparison.
+
+Recommended Retention Actions:
+1. Offer a limited-time promotional rate on a higher-speed plan (e.g., illustrative: discounted rate on Fiber Optic for the first few months) so the customer can experience the upgrade before committing to full price.
+2. Bundle a speed upgrade with a small discount on another service (e.g., streaming add-on) to increase perceived value without a direct price cut.
+3. Review whether a mid-tier speed plan exists between the customer's current plan and the premium tier - sometimes customers churn because only "too slow" and "too expensive" options are visible to them.
+4. For customers with multiple connected devices/heavy usage, explain data/speed plans that specifically match household size, which may reveal a more suitable (and better-perceived-value) option than what they currently have.
+
+Note: Specific discount amounts and timeframes in these actions are illustrative examples only, not figures derived from company data.

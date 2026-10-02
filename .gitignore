@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Generated model/data files - keep them local; recreate using the notebooks
+models/*.pkl
+models/*.faiss
+models/*.index
+data/processed/*.csv
+data/raw/*.csv
+
+# Keep folder structure visible on GitHub even though contents are ignored
+!models/.gitkeep
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+# Runtime output
+outputs/*
+!outputs/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/settings.json

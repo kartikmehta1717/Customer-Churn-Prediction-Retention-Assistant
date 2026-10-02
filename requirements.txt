@@ -1,0 +1,37 @@
+# Core data processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning
+scikit-learn
+xgboost==1.7.6
+
+# Explainability
+shap
+
+# RAG - Embeddings & Vector Search
+sentence-transformers
+faiss-cpu
+
+# Frontend (Module 6)
+streamlit
+google-genai
+python-dotenv
+
+# Notebook environment
+jupyter
+
+# Model persistence
+joblib
+
+# Imbalanced data handling (used during Module 2 experimentation)
+imbalanced-learn
+
+# Optional MySQL integration scripts
+SQLAlchemy
+mysql-connector-python

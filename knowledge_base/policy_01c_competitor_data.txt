@@ -1,0 +1,20 @@
+Policy ID: P01C
+Category: Competitor-Related Churn
+Churn Reason (exact dataset value): Competitor offered more data
+Frequency: 117 cases (6.3% of all churned customers)
+Priority Level: MEDIUM-HIGH
+Related Policy: P01A, P01B, P01D (other Competitor-Related sub-reasons); P06 (Speed/Bandwidth Concerns) - overlaps when the underlying need is more bandwidth rather than a competitor comparison specifically
+
+Use When (customer profile hints):
+- Avg Monthly GB Download is high relative to other customers (heavy data user)
+- Internet Service = Yes, especially Fiber Optic or Cable
+- Unlimited Data = No
+
+Problem Summary: The customer left because a competitor offered a larger data allowance for a similar or lower price. This customer is typically a heavy data user who felt their current plan's data cap (or lack of unlimited data) was a limiting factor compared to what else was available in the market.
+
+Recommended Retention Actions:
+1. If the customer does not currently have Unlimited Data, offer an upgrade to an unlimited or higher-cap data add-on (e.g., illustrative: discounted for the first few months) before they switch providers.
+2. Proactively identify heavy-data-usage customers on capped plans and offer a data upgrade consultation ahead of any complaint.
+3. If matching the competitor's exact data allowance isn't cost-feasible, offer a usage-based alternative such as rollover data or off-peak unlimited data.
+
+Note: Specific discount percentages and timeframes in these actions are illustrative examples only, not figures derived from company data.

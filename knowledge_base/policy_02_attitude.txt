@@ -1,0 +1,22 @@
+Policy ID: P02
+Category: Support/Service Attitude Issues
+Churn Reason (exact dataset values): Attitude of support person, Attitude of service provider
+Frequency: 314 cases (16.8% of all churned customers)
+Priority Level: HIGH
+Related Policy: P05 (Technical Support Expertise Issues) - the KEY DIFFERENCE is that P02 is about how the customer was treated (rudeness, poor manner), while P05 is about whether the problem was actually solved (lack of technical knowledge). A single support interaction could trigger either or both.
+
+Use When (customer profile hints):
+- Recent support/service contact logged on the account (if available)
+- Satisfaction Score is low (if this signal is available outside the ML feature set)
+- No clear price or competitor signal present - this is a behavioral/service issue, not a value issue
+
+Problem Summary: Customers in this group did not leave because of price or product features - they left because of how they were treated during interactions with support staff or service representatives. This is a human/behavioral issue rather than a technical or pricing one, meaning it is highly preventable through training and process changes, but also highly damaging to brand reputation if left unaddressed.
+
+Recommended Retention Actions:
+1. Flag this customer's account for a follow-up call from a senior support manager (not the original representative) to acknowledge the poor experience and offer a sincere service recovery gesture (e.g., illustrative: one month free, or a bill credit).
+2. Route future support requests from this customer to a designated senior agent for a defined period (e.g., illustrative: next 3-6 months) to rebuild trust.
+3. Conduct root-cause review of the specific interaction (call/chat logs if available) to identify whether this was an isolated incident or a pattern with a specific agent/team, and provide targeted coaching accordingly.
+4. Offer a "we're sorry" retention discount (e.g., illustrative: 10-15% off next 2 bills) as a goodwill gesture, explicitly tied to the service experience, not the product.
+5. Implement post-interaction satisfaction surveys company-wide to catch attitude-related dissatisfaction before it escalates to a churn decision.
+
+Note: Specific discount percentages and timeframes in these actions are illustrative examples only, not figures derived from company data, and should be set by the retention/customer service team.

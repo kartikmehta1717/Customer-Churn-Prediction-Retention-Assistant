@@ -1,0 +1,20 @@
+Policy ID: P01B
+Category: Competitor-Related Churn
+Churn Reason (exact dataset value): Competitor made better offer
+Frequency: 311 cases (16.6% of all churned customers)
+Priority Level: HIGH
+Related Policy: P01A, P01C, P01D (other Competitor-Related sub-reasons); P03 (Price & Charges Concerns) - overlaps when the "better offer" is specifically about price rather than devices/data/speed
+
+Use When (customer profile hints):
+- Contract = Month-to-Month
+- Customer has not redeemed any current promotional Offer (Offer = No Offer)
+- Monthly Charge is at or above the average for their plan tier
+
+Problem Summary: The customer left because a competitor presented a more attractive overall package or promotional deal, without a specific single factor (device, data, or speed) being named. This is a general competitive-offer issue, often involving bundled pricing, contract terms, or promotional incentives the company did not match.
+
+Recommended Retention Actions:
+1. If the customer has never received a promotional Offer, proactively present one (e.g., illustrative: a limited-time discount or bundle) before contract renewal.
+2. Empower frontline support/retention staff to present a matching counter-offer when a customer cites a specific competitor deal, within a pre-approved discount range (e.g., illustrative: up to a defined percentage off for a limited period).
+3. Review the customer's current plan against competitor pricing pages periodically for high-CLTV, month-to-month customers, and proactively adjust their offer before they consider leaving.
+
+Note: Specific discount percentages and timeframes in these actions are illustrative examples only, not figures derived from company data.
