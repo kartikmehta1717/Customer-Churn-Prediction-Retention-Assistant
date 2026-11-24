@@ -1,3 +1,4 @@
+
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
@@ -243,3 +244,7 @@ with tab4:
             st.session_state["messages"].append({"role": "assistant", "content": answer})
     else:
         st.info("Click **Generate recommendation** to get the AI suggestion and enable chat.")
+
+
+# conda activate churn-assistant
+# streamlit run app/app.py

@@ -56,6 +56,13 @@ embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # ---------- Gemini ----------
 api_key = os.getenv("GEMINI_API_KEY")
+# Also try Streamlit secrets (for Streamlit Cloud deployment)
+if not api_key:
+    try:
+        import streamlit as st
+        api_key = st.secrets.get("GEMINI_API_KEY")
+    except Exception:
+        pass
 client = genai.Client(api_key=api_key) if api_key else None
 GEMINI_MODELS = ["gemini-3.5-flash", "gemini-3.1-flash-lite"]
 

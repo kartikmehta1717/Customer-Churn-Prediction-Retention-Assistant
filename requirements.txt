@@ -18,20 +18,13 @@ shap
 sentence-transformers
 faiss-cpu
 
-# Frontend (Module 6)
+# Frontend
 streamlit
 google-genai
 python-dotenv
 
-# Notebook environment
-jupyter
-
 # Model persistence
 joblib
 
-# Imbalanced data handling (used during Module 2 experimentation)
+# Imbalanced data handling
 imbalanced-learn
-
-# Optional MySQL integration scripts
-SQLAlchemy
-mysql-connector-python
