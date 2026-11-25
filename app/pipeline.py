@@ -64,7 +64,7 @@ if not api_key:
     except Exception:
         pass
 client = genai.Client(api_key=api_key) if api_key else None
-GEMINI_MODELS = ["gemini-3.5-flash", "gemini-3.1-flash-lite"]
+GEMINI_MODELS = ["gemini-2.0-flash", "gemini-1.5-flash"]
 
 
 def call_gemini_with_retry(prompt, models=None, max_retries=3, base_wait=10, json_mode=False):
