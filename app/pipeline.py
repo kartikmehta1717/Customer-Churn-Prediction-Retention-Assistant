@@ -55,22 +55,26 @@ best_threshold = float(joblib.load(ROOT / "models" / "best_threshold.pkl"))
 embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # ---------- Gemini ----------
-api_key = os.getenv("GEMINI_API_KEY")
-# Also try Streamlit secrets (for Streamlit Cloud deployment)
-if not api_key:
-    try:
-        import streamlit as st
-        api_key = st.secrets.get("GEMINI_API_KEY")
-    except Exception:
-        pass
-client = genai.Client(api_key=api_key) if api_key else None
 GEMINI_MODELS = ["gemini-2.0-flash", "gemini-1.5-flash"]
+
+
+def _get_gemini_client():
+    """Read API key lazily so Streamlit secrets are fully loaded first."""
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        try:
+            import streamlit as st
+            api_key = st.secrets.get("GEMINI_API_KEY")
+        except Exception:
+            pass
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY not set. Add it to Streamlit Secrets or your .env file.")
+    return genai.Client(api_key=api_key)
 
 
 def call_gemini_with_retry(prompt, models=None, max_retries=3, base_wait=10, json_mode=False):
     """Retry with backoff + model fallback. Returns (text, model_used)."""
-    if client is None:
-        raise RuntimeError("GEMINI_API_KEY not found in .env")
+    client = _get_gemini_client()
     models = models or GEMINI_MODELS
     last_error = None
     for model_name in models:
